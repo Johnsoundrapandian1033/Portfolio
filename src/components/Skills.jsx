@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { skillGroups } from '../data/portfolio.js'
-import React,{ useState } from 'react'
+import React from 'react'
 import { profile } from '../data/portfolio.js';
 import { FiArrowUpRight } from 'react-icons/fi'
 import { SiLeetcode } from 'react-icons/si';

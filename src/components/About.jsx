@@ -72,7 +72,7 @@ export default function About() {
           </motion.div>
         </div>
         <div className="hero-cta py-4">
-          <a
+          <button
             className="btn btn-primary"
             onClick={(e) => {
               e.preventDefault();
@@ -80,8 +80,8 @@ export default function About() {
             }}
           >
             My Story <FiArrowRight size={16} />
-          </a>
-           <a
+          </button>
+           <button
             className="btn btn-primary"
             onClick={(e) => {
               e.preventDefault();
@@ -89,7 +89,7 @@ export default function About() {
             }}
           >
             My Career Journey <FiArrowRight size={16} />
-          </a>
+          </button>
         </div>
         { 
            (myStory && !myCareer) ?(

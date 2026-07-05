@@ -23,7 +23,7 @@ export default function Hero() {
             solution at a time.
           </h1>
 
-          <p className="hero-tagline">// {profile.tagline}</p>
+          <p className="hero-tagline"> {"// "+profile.tagline}</p>
 
           <p className="hero-lede">{profile.summary.split('.')[0]}. Focused on Spring Boot services, well-indexed PostgreSQL, and APIs that hold up in production.</p>
 
