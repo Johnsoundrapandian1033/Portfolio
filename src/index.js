@@ -1,0 +1,15 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import { ThemeProvider } from './context/ThemeContext.jsx'
+import 'bootstrap/dist/css/bootstrap-grid.min.css'
+import './index.css'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>
+)
