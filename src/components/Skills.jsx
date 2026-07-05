@@ -1,12 +1,11 @@
 import { motion } from 'framer-motion'
-import { skillGroups, dsaCon } from '../data/portfolio.js'
+import { skillGroups } from '../data/portfolio.js'
 import React,{ useState } from 'react'
 import { profile } from '../data/portfolio.js';
-import { FiGithub, FiArrowUpRight } from 'react-icons/fi'
+import { FiArrowUpRight } from 'react-icons/fi'
 import { SiLeetcode } from 'react-icons/si';
 
 export default function Skills() {
-  const [index] = useState(skillGroups.length+1);
   return (
     <section className="section" id="skills">
       <div className="container">
@@ -19,7 +18,7 @@ export default function Skills() {
         <div className="skills-grid">
           {skillGroups.map((group, gi) => (
             <div key={group.label}>
-              {group.label === "Tools & Concepts"? <div ><p style={{height:"20px"}}> </p>  </div> :''}
+              {group.label === "Tools & Concepts"? <div ><p style={{height:"0px"}}> </p>  </div> :''}
               <div className="skill-group-title">{group.label}</div>
               {group.items.map((item, i) => (
                 <div className="skill-row" key={item.name}>
@@ -50,7 +49,7 @@ export default function Skills() {
                 src="./leetcodepr.png"
                 alt="LeetCode Profile"
                 loading="eager"
-                style={{width:"350px"}}
+                style={{width:"500px", height : "200px"}}
               />
             </div>
 

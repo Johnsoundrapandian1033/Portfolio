@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { profile, education } from '../data/portfolio.js'
-import { FiDownload, FiArrowRight } from 'react-icons/fi'
+import { FiArrowRight } from 'react-icons/fi'
 import React,{ useState } from 'react'
 export default function About() {
   const [myStory, setMyStory] = useState(false);
@@ -74,7 +74,6 @@ export default function About() {
         <div className="hero-cta py-4">
           <a
             className="btn btn-primary"
-            href=""
             onClick={(e) => {
               e.preventDefault();
               onMyStory(myStory);
@@ -84,7 +83,6 @@ export default function About() {
           </a>
            <a
             className="btn btn-primary"
-            href=""
             onClick={(e) => {
               e.preventDefault();
                 onMyCareer(myCareer);

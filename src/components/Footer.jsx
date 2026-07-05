@@ -1,6 +1,6 @@
-import { FiArrowUp } from 'react-icons/fi'
+
 import { profile } from '../data/portfolio.js'
-import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi'
+import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi'
 import { SiLeetcode } from 'react-icons/si'
 
 export default function Footer() {
