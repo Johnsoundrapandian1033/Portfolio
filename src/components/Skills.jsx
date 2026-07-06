@@ -31,7 +31,7 @@ export default function Skills() {
                       className="gauge-fill"
                       initial={{ width: 0 }}
                       whileInView={{ width: `${item.level}%` }}
-                      viewport={{ once: true, margin: '-40px' }}
+                      viewport={{ once: true}}
                       transition={{ duration: 0.9, delay: gi * 0.05 + i * 0.06, ease: 'easeOut' }}
                     />
                   </div>
