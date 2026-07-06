@@ -132,7 +132,7 @@ export default function Contact() {
             )}
 
             <button className="btn btn-primary" type="submit" disabled={status.state === 'sending'}>
-              <FiSend size={16} /> {status.state === 'sending' ? 'Sending…' : 'Send Booking Request'}
+              <FiSend size={16} /> {status.state === 'sending' ? 'Sending…' : 'Send Request'}
             </button>
           </motion.form>
         </div>

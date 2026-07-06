@@ -57,7 +57,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15, ease: 'easeOut' }}
         >
-          <div className="manifest-card">
+          <div className="manifest-card justify-content-center">
             <div className="manifest-photo-frame">
               <img src={profile.photo} alt={`${profile.name} portrait`} loading="eager" />
             </div>
