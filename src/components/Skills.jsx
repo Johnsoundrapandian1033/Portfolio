@@ -29,10 +29,13 @@ export default function Skills() {
                   <div className="gauge-track">
                     <motion.div
                       className="gauge-fill"
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${item.level}%` }}
-                      viewport={{ once: true}}
-                      transition={{ duration: 0.9, delay: gi * 0.05 + i * 0.06, ease: 'easeOut' }}
+  initial={{ width: 0 }}
+  animate={{ width: `${item.level}%` }}
+  transition={{
+    duration: 0.9,
+    delay: gi * 0.05 + i * 0.06,
+    ease: "easeOut",
+  }}
                     />
                   </div>
                 </div>
