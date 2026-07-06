@@ -73,7 +73,7 @@ export default function Navbar() {
             }}
           >
             <span className={`method-tag ${link.method.toLowerCase()}`}>--</span>
-            {link.label}
+            {link.path}
           </button>
         ))}
       </div>
